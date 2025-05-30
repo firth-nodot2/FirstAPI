@@ -1,6 +1,4 @@
-@FirstAPI_HostAddress = http://localhost:5204
+@rootURL = http://localhost:5204
 
-GET {{FirstAPI_HostAddress}}/weatherforecast/
+GET {{rootURL}}/weatherforecast/
 Accept: application/json
-
-###
